@@ -34,9 +34,6 @@ def dataPreprocess(text):
 
     # text = [word for word in text if word not in nlp.vocab[word].vector] 
     # print()
-
-    
-
     return text
 
 
@@ -62,7 +59,7 @@ text = ("When Sebastian Thrun started working on self-driving cars at "
         "worth talking to,” said Thrun, in an interview with Recode earlier "
         "this week.")
 
-df = pd.read_csv('newDfList.csv')
+df = pd.read_csv('data/newDfList.csv')
 
 print(df.head(5))
 
